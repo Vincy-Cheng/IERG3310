@@ -11,7 +11,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # s connect to server
 s.connect((localhost, listenPort)) 
-sid = "1155******" # student id , any number up to you.
+sid = "1155125313" # student id 
 
 # sending Student ID to server
 s.send(sid.encode())
